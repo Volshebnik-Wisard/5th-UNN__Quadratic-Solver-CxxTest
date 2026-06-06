@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="cxxtest" date="Wed Apr  2 11:38:15 2025" tests="12" errors="0" failures="1" time="0" >
+    <testcase classname="MyTestSuite" name="test_equal_roots" line="11" />
+    <testcase classname="MyTestSuite" name="test_linear" line="22" />
+    <testcase classname="MyTestSuite" name="test_constant" line="31" />
+    <testcase classname="MyTestSuite" name="test_square" line="40" />
+    <testcase classname="MyTestSuite" name="test_5" line="49" />
+    <testcase classname="MyTestSuite" name="test_zero" line="58" />
+    <testcase classname="MyTestSuite" name="test_negative_discriminant" line="68">
+        <failure file="R:\Kovschickov\Test\MyTestSuite.h" line="71" type="failedAssertEquals" >Error: Expected (solve_quadratic(1, 1, 1, x1, x2) == 1), found (0 != 1)</failure>
+        <system-out >
+In MyTestSuite::test_negative_discriminant:
+R:\Kovschickov\Test\MyTestSuite.h:71: Error: Expected (solve_quadratic(1, 1, 1, x1, x2) == 1), found (0 != 1)
+</system-out>
+    </testcase>
+    <testcase classname="MyTestSuite" name="test_negative" line="77" />
+    <testcase classname="MyTestSuite" name="test_golden_ratio" line="86" />
+    <testcase classname="MyTestSuite" name="test_close_to_zero_all" line="99" />
+    <testcase classname="MyTestSuite" name="test_close_to_zero" line="112" />
+    <testcase classname="MyTestSuite" name="test_huge_all" line="132" />
+</testsuite>
